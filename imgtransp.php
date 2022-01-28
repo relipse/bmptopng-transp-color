@@ -6,7 +6,7 @@ $shortopts .= 'd:';
 $longopts = [
     'file:',   //file to convert .bmp
     'dir:',    //directory to convert all *.bmps
-	'help',
+    'help',
 ];
 
 $opts = getopt($shortopts, $longopts);
