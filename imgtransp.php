@@ -4,7 +4,7 @@ $shortopts .= 'f:';
 $shortopts .= 'd:';
 
 $longopts = [
-	'file:',   //file to convert .bmp
+    'file:',   //file to convert .bmp
     'dir:',    //directory to convert all *.bmps
 	'help',
 ];
